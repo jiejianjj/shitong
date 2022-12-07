@@ -71,6 +71,9 @@ body{
 }
 .box4{
     display: block;
+    font-family: Plantin-LightItalic;
+    font-size: 1.1em;
+    text-shadow: 2px 2px 3px silver;
 }
 
 

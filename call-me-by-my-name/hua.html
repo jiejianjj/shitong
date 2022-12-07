@@ -40,19 +40,19 @@
       #hear img.top:hover {
         opacity: 0;
       }
-      .arrowl{
-        position:fixed;
-        width:80px;
-        height:auto;
-        left:30px;
-        bottom:20px;
+      .arrowl {
+        position: fixed;
+        width: 80px;
+        height: auto;
+        left: 30px;
+        bottom: 20px;
       }
-      .arrowr{
-        position:fixed;
-        width:80px;
-        height:auto;
-        right:30px;
-        bottom:20px;
+      .arrowr {
+        position: fixed;
+        width: 80px;
+        height: auto;
+        right: 30px;
+        bottom: 20px;
       }
       .question {
         font-family: PlantinBoldItalic;
@@ -144,14 +144,18 @@
     <div class="container">
       <div class="containerBox">
         <div class="tabbar tabbarTitle" style="position: absolute">
-          <p data-index="1">Browse By <span class="span3">Words</span></p>
-          <p data-index="2">Browse By <span class="span3">Images</span></p>
+          <a href="browse-by-words.html"
+            ><p data-index="1">Browse By <span class="span3">Words</span></p></a
+          >
+          <!-- <p data-index="2">Browse By <span class="span3">Images</span></p> -->
           <p data-index="3">
             <span class="span1">CALL</span> <span class="span2">Me</span>
             <span class="span1">By</span> <span class="span2">My Name</span>
           </p>
-          <p data-index="4">Browse By <span class="span3">Love</span></p>
-          <p data-index="5">More Stories</p>
+          <a href="browse-by-love.html"
+            ><p data-index="4">Browse By <span class="span3">Love</span></p></a
+          >
+          <!-- <p data-index="5">More Stories</p> -->
         </div>
         <video autoplay muted loop id="myVideo">
           <source src="video/王画.mp4" type="video/mp4" />
@@ -160,9 +164,8 @@
       <br />
       <br />
       <div class="grid-container">
-        
-       <a href="hailie.html"><img class="arrowl" src="img/left.png"></a> 
-       <a href="shitong.html"><img class="arrowr" src="img/right.png"></a>
+        <a href="hailie.html"><img class="arrowl" src="img/left.png" /></a>
+        <a href="shitong.html"><img class="arrowr" src="img/right.png" /></a>
         <div id="hear">
           <img class="bottom" src="img/hear_2.png" />
           <img class="top" src="img/hear_1.png" />
@@ -176,12 +179,13 @@
         </p>
         <p class="question left">What does your name mean?</p>
         <p class="answer left">
-          <span class="chinese">画</span> (<span class="italic">hua</span>)
-          means <span id="blur1">paint/draw/painting</span>. <br />
+          <span class="chinese">画</span>
+          <span class="italic">(hua)</span> means
+          <span id="blur1">paint/draw/painting</span>. <br />
           My dad thinks that a newborn is like a white canvas waiting for time
           to paint on it.
         </p>
-        
+
         <p class="question right">
           What is your English name? (Please write in pinyin if you don’t have
           one)
@@ -191,8 +195,9 @@
           Have you ever abandoned your English name? What was the reason?
         </p>
         <p class="answer left">
-          I used to have a name called <span class="italic" id="blur2">Violet</span>, I
-          abandoned <span class="italic" id="blur3">Violet</span> because I thought it was
+          I used to have a name called
+          <span class="italic" id="blur2">Violet</span>, I abandoned
+          <span class="italic" id="blur3">Violet</span> because I thought it was
           too much like an old European lady.
         </p>
         <p class="question right">
@@ -202,7 +207,7 @@
         <p class="answer right">
           I’ve had teachers misspell my name, some people can’t pronounce it. I
           abandoned Violet as my english name but I still use it in Starbucks so
-          I don't have to explain.
+          I don’t have to explain.
         </p>
         <p class="question left">
           Do you prefer your Chinese name or your English name? Which name

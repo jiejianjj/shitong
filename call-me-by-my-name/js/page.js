@@ -35,7 +35,7 @@ $(function(){
                         }
                         
                         if(arr.length>=10){
-                            window.location = "shell.html"
+                            window.location = "browse-by-words.html"
                         }
                     }else{
                         $(this).css("left",$(this).attr("data-left")+'px')

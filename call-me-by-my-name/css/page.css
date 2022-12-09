@@ -40,10 +40,10 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
 }
 .container .containerBox .center p .center1{
-    color: #F31618;
+    color: #FF5F57;
     font-family: Plantin-LightItalic
 }
 .container .containerBox .center p .center2{
@@ -60,7 +60,7 @@ body{
 
 .container .containerBox .pageul .chinese{
     font-size: 30px;
-    color: #F31618;
+    color: #FF5F57;
 }
 .container .containerBox .pageul .english{
     font-size: 30px;
